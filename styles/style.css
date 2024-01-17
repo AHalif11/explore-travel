@@ -673,6 +673,10 @@ footer {
   .col-span2 {
     grid-column: span 1;
   }
+  /* choose us section */
+  .choose-us-sub {
+    flex-direction: column;
+  }
 
   /* .destination {
     margin: 0px 20px;
