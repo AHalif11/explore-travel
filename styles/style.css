@@ -611,6 +611,9 @@ footer {
 /* responsive for mobile*/
 
 @media screen and (max-width: 600px) {
+  body {
+    margin: 0 auto;
+  }
   header {
     width: 600px;
     padding: 20px;
@@ -654,11 +657,26 @@ footer {
 
   /* main */
   main {
-    padding: 100px 20px;
+    padding: 100px 0px;
+    margin: 0px 30px;
   }
   .popular-tour {
     flex-direction: column;
   }
+  /* destination section */
+  .destination-img {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 300px);
+    gap: 24px;
+    width: 100%;
+  }
+  .col-span2 {
+    grid-column: span 1;
+  }
+
+  /* .destination {
+    margin: 0px 20px;
+  } */
 
   /*
   
