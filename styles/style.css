@@ -624,6 +624,9 @@ footer {
   .banner {
     height: auto;
   }
+  .find-btn {
+    justify-content: center;
+  }
   .banner-container {
     width: 95%;
   }
@@ -687,7 +690,7 @@ footer {
 
   .deals-discount-image,
   .deals-discount-image-whiteheaven {
-    height: 500px;
+    /* height: 500px; */
     display: flex;
     align-items: end;
     padding: 187px 16px 16px 16px;
@@ -716,7 +719,7 @@ footer {
   }
 
   .deals-discount-image-content {
-    height: 297px;
+    /* height: 297px; */
     padding: 40px;
   }
   /* simple-place */
