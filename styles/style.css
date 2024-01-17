@@ -652,6 +652,14 @@ footer {
     display: block;
   }
 
+  /* main */
+  main {
+    padding: 100px 20px;
+  }
+  .popular-tour {
+    flex-direction: column;
+  }
+
   /*
   
   .tour-img {
@@ -665,13 +673,7 @@ footer {
     padding: 0 24px;
   }
   
-  .popular-tour {
-    flex-direction: column;
-  }
-  main {
-    padding: 20px;
-    width: 100%;
-  }
+  
   .newsletter-container {
     flex-direction: column;
   }
