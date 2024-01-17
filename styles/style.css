@@ -290,7 +290,6 @@ main {
 .deals-discount-image-content {
   max-width: 579px;
   height: 389px;
-  /* margin: 56px 56px 56px 535px; */
   border-radius: 16px;
   border: 2px solid #fff;
   background: rgba(255, 255, 255, 0.8);
@@ -334,7 +333,7 @@ main {
 .deals-discount-image-content-description {
   text-align: start;
 }
-/* el nido */
+/* white heaven */
 .deals-discount-image-whiteheaven {
   border-radius: 16px;
   background: url("../Images/Group\ 40.png"), lightgray 50%;
@@ -677,7 +676,43 @@ footer {
   .choose-us-sub {
     flex-direction: column;
   }
+  /* deals discount section */
 
+  .deals-discount-image,
+  .deals-discount-image-whiteheaven {
+    height: 500px;
+    display: flex;
+    align-items: end;
+    padding: 187px 16px 16px 16px;
+    margin-bottom: 20px;
+  }
+
+  .deals-discount-container .deals-discount-title h3 {
+    color: #131318;
+    font-weight: 800;
+    font-size: 1.25rem;
+  }
+  .deals-discount-container .deals-discount-title p {
+    color: #5a5a5d;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .deals-discount-image-content-heading {
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .deals-discount-container {
+    margin-bottom: 16px;
+  }
+
+  .deals-discount-image-content {
+    height: 297px;
+    padding: 40px;
+  }
   /* .destination {
     margin: 0px 20px;
   } */
