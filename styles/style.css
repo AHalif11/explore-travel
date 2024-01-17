@@ -291,7 +291,6 @@ main {
 
 .deals-discount-image-content {
   max-width: 579px;
-  height: 389px;
   border-radius: 16px;
   border: 2px solid #fff;
   background: rgba(255, 255, 255, 0.8);
@@ -471,7 +470,7 @@ main {
 .name-inp,
 .email-inp {
   width: 100%;
-  padding: 16px 250px 16px 20px;
+  padding: 20px;
   border-radius: 8px;
   background: rgba(19, 19, 24, 0.05);
   margin: 16px auto;
@@ -485,7 +484,7 @@ main {
   border-radius: 8px;
   /* background: #FF5400; */
   margin-bottom: 16px auto;
-  padding: 14px 166px 16px 166px;
+  padding: 16px;
   background-color: var(--primary-color-orange);
   color: #fff;
   font-size: 1.25rem;
@@ -611,14 +610,14 @@ footer {
 /* responsive for mobile*/
 
 @media screen and (max-width: 600px) {
-  body {
-    margin: 0 auto;
-  }
   header {
     max-width: 600px;
     padding: 20px;
     width: 100%;
     margin: auto;
+    overflow: hidden;
+  }
+  main {
     overflow: hidden;
   }
   .banner {
