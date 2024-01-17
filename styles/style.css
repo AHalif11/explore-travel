@@ -460,7 +460,7 @@ main {
 .newsletter-img {
   width: 60%;
   border-radius: 16px;
-  background: url("../Images/Rectangle\ 8.png"), lightgray 50%;
+  background: url("../Images/Rectangle\ 8\ \(1\).png"), lightgray 50%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -700,7 +700,6 @@ footer {
   }
 
   .deals-discount-image-content-heading {
-    /* display: flex; */
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
@@ -713,6 +712,62 @@ footer {
     height: 297px;
     padding: 40px;
   }
+  /* simple-place */
+  .simple-place-container {
+    flex-direction: column;
+  }
+
+  /* newsletter */
+  .newsletter-container {
+    flex-direction: column;
+  }
+  .newsletter-input {
+    width: 84%;
+    padding: 40px;
+  }
+  .newsletter-container {
+    height: auto;
+  }
+  .newsletter-img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .newsletter-img-indiv {
+    max-width: 214.023px;
+    height: 79.268px;
+    background-color: var(--primary-color-orange);
+    transform: rotate(-19.628deg);
+    position: relative;
+    top: 64%;
+    left: 58%;
+  }
+
+  .newsletter-img-indiv h3 {
+    color: #fff;
+    font-size: 0.99rem;
+    font-weight: 400;
+  }
+  .newsletter-img-indiv p {
+    color: #fff;
+    font-size: 1.321rem;
+    font-weight: 800;
+  }
+  /* chat now section */
+  .chat-now-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+  }
+  .chat-now-container p {
+    font-size: 1rem;
+  }
+
+  /* .newsletter-input {
+    width: 85%;
+    padding: 24px;
+  { */
+  /* border-radius: 16px; */
+  /* border: 1px solid #ff5400; */
   /* .destination {
     margin: 0px 20px;
   } */
