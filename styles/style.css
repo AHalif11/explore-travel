@@ -101,7 +101,6 @@ nav ul li a {
   background: rgba(255, 255, 255, 0.3);
 }
 .inp {
-  max-width: 174px;
   height: 52px;
   padding: 16px 84px 16px 16px;
 }
@@ -521,7 +520,7 @@ main {
 }
 /* chat-now-section */
 .chat-now-container {
-  background-color: rgb(218, 228, 242);
+  background-color: rgb(223, 239, 255);
   text-align: center;
   padding: 100px 70px;
   margin: 100px 0px 0px;
@@ -602,7 +601,6 @@ footer {
 }
 
 .footer-copyright {
-  /* max-width: 191px; */
   margin: 50px auto 0px;
   color: #131318;
   font-family: Inter;
@@ -610,37 +608,63 @@ footer {
   font-weight: 300;
 }
 
-/* responsive */
+/* responsive for mobile*/
+
 @media screen and (max-width: 600px) {
   header {
     width: 600px;
     padding: 20px;
     width: 100%;
     margin: auto;
+    overflow: hidden;
   }
   .banner {
     height: auto;
   }
-  .tour-img {
-    width: 100%;
+  .banner-content {
+    padding-bottom: 32px;
   }
+  .banner-content .banner-input {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px 32px;
+    margin: 48px 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .wherego {
+    padding: 0px 20px 0px;
+  }
+  .banner-input > * {
+    height: 52px;
+  }
+  .banner-input > select .inp {
+    max-width: 355px;
+  }
+  .banner-title {
+    padding: 20px;
+  }
+
   nav ul {
     display: none;
   }
   .hmb-icon {
     display: block;
   }
-  .banner-title {
-    padding: 20px;
+
+  /*
+  
+  .tour-img {
+    width: 100%;
   }
+  
+  
   .banner-input {
     display: flex;
     flex-direction: column;
     padding: 0 24px;
   }
-  .inp {
-    width: 100%;
-  }
+  
   .popular-tour {
     flex-direction: column;
   }
@@ -679,11 +703,11 @@ footer {
   footer {
     width: 100%;
     background-color: #ff5400;
-  }
+  } */
   /* .input {
     width: 100%;
   } */
-  .name-inp {
+  /* .name-inp {
     width: 100%;
     display: none;
   }
@@ -703,6 +727,6 @@ footer {
     max-width: 287px;
     display: flex;
     justify-content: center;
-  }
+  }*/
 }
 /* responsive*/
